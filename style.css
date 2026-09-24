@@ -61,57 +61,29 @@ label {
 }
 
 textarea {
-    width: 100%;
-    border-radius: 8px;
-    border-left: 4px solid #1e293b;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #CBD5E1;
+  border-left: 4px solid #EA580C;
+  background-color: #FFFFFF;
+  color: #0F172A;
+  font-size: 14px;
 }
 
-.form {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 42px;
-    padding: 8px;
-    border-radius: 8px;
-    border: 0.5px solid #0F172A;
-    border-left: 4px solid #0F172A;
-    color: #FFFFFF;
-}
-
-.form1 {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 42px;
-    padding: 8px;
-    border-radius: 8px;
-    border: 0.5px solid #0F172A;
-    border-left: 4px solid #0F172A;
-    color: #FFFFFF;
-}
-
-.form2 {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 42px;
-    padding: 8px;
-    border-radius: 8px;
-    border: 0.5px solid #0F172A;
-    border-left: 4px solid #0F172A;
-    color: #FFFFFF;
-}
-
-.form3 {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 42px;
-    padding: 8px;
-    border-radius: 8px;
-    border: 0.5px solid #0F172A;
-    border-left: 4px solid #0F172A;
-    color: #FFFFFF;
+.form, .form2, .form3 {
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid #CBD5E1;
+  border-left: 4px solid #EA580C;
+  background-color: #FFFFFF;
+  color: #0F172A;
+  font-size: 14px;
+  outline: none;
 }
 
 .botton {
@@ -127,7 +99,7 @@ textarea {
 }
 
 .foto {
-    background-image: #e2e8f0;
+    background-color: #e2e8f0;
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -190,5 +162,5 @@ textarea {
 }
 
 #foto-fachada {
-    background-image: url("fachada_arena.jpg")
+    background-image: url("fachada_arena.jpg");
 }
