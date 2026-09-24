@@ -1,9 +1,11 @@
+/* Seletor Universal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Seletor de Tag */
 body {
   background-color: #F8FAFC;
   color: #0F172A;
@@ -19,18 +21,13 @@ h2 {
     font-size: 32px;
 }
 
-header {
+/* Seletor compartilhado para campos de entrada */
+header, footer {
   background-color: #EA580C;
   padding: 20px;
   text-align: center;
   color: #ffffff;
-}
-
-footer {
-  background-color: #EA580C;
-  padding: 20px;
-  text-align: center;
-  color: #ffffff;
+  box-shadow: 0 15px 12px rgb(0, 0, 0, 0.25);
 }
 
 main {
@@ -72,6 +69,7 @@ textarea {
   font-size: 14px;
 }
 
+/* Seletor compartilhado para campos de entrada */
 .form, .form2, .form3 {
   display: block;
   width: 100%;
@@ -86,6 +84,7 @@ textarea {
   outline: none;
 }
 
+/* Seletor de Class */
 .botton {
     display: block;
     width: 100%;
