@@ -19,16 +19,17 @@
     </header>
 
     <main>
-        <h2>Agende sua consulta</h2>
-        <form action="#" method="post">
+        <h2 class="form1">Agende sua consulta</h2>
+        <form action="#" method="post" id="formulario">
             <label for="nome">Nome e Sobrenome (responsavel pela reserva): </label>
-            <input type="text" name="nome" id="nome" required> <br>
+            <input type="text" name="nome" id="nome" required
+            class="form"> <br>
 
             <label for="email">Email: </label>
-            <input type="email" name="email" id="email"> <br>
+            <input type="email" name="email" id="email" class="form"> <br>
 
             <label for="telefone">Telefone: </label>
-            <input 
+            <input class="form"
                 type="tel" 
                 name="telefone" 
                 id="telefone" 
@@ -37,17 +38,17 @@
                 maxlength="15"
                 title="Digite com DD. Ex: (17) 98765-4321 ou 17987654321"> <br>
 
-            <label for="data">Data: </label>
-            <input type="date" name="data" id="data"> <br>
+            <label for="data" class="form2">Data: </label>
+            <input type="date" name="data" id="data" class="form3"> <br>
 
-            <label for="horadas">Horário (das): </label>
-            <input type="time" name="horadas" id="horadas" required> <br>
+            <label for="horadas" class="form2">Horário (das): </label>
+            <input type="time" name="horadas" id="horadas" required class="form3"> <br>
 
-            <label for="horaate">Até: </label>
-            <input type="time" name="horaate" id="horaate" required> <br>
+            <label for="horaate" class="form2">Até: </label>
+            <input type="time" name="horaate" id="horaate" required class="form3"> <br>
 
-            <label for="especialidades">Especialidade:</label>
-            <select name="especialidades" id="especialidades">
+            <label for="especialidades" class="form2">Especialidade:</label>
+            <select name="especialidades" id="especialidades" class="form3">
                 <option value="">Selecione uma opção</option>
                 <option value="futsal">Futsal</option>
                 <option value="volei">Vôlei</option>
@@ -56,10 +57,10 @@
                 <option value="tenisdemesa">Tenis de mesa</option>
             </select>
             <br>
-            <label for="participantes">Número de participantes: </label>
-            <input type="text" name="participantes" id="participantes" title="Máximo de participantes por reserva: 25" required>
+            <label for="participantes" class="form2">Número de participantes: </label>
+            <input type="text" name="participantes" id="participantes" title="Máximo de participantes por reserva: 25" required class="form2">
             <br>
-            <button type="submit">Confirmar Agendamento</button>
+            <button type="submit" class="botton">Confirmar Agendamento</button>
         </form>
     </main>
 </body>
